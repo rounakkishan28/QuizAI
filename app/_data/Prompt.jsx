@@ -1,6 +1,6 @@
 export const Prompt = `{
-    "topic": "Javascript",
-    "level": "easy",
+    "topic": {prompt},
+    "level": {level},
     "totalQuestions": {count},
     "questionList": [
         {
