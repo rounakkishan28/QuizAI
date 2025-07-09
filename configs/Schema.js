@@ -22,7 +22,6 @@ export const QUIZ_RAW_TABLE = pgTable("quizRaw", {
   quizData: json(),
   level: varchar(),
   solved: integer().default(0),
-  status: Boolean().default(false),
   createdBy: varchar()
     .notNull()
     .references(() => USER_TABLE.email),
